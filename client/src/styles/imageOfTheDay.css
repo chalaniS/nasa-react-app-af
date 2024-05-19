@@ -1,0 +1,53 @@
+/* ImageOfTheDay.css */
+
+.container {
+  margin-top: 20px;
+  color: white;
+
+}
+
+.date {
+  font-style: italic;
+  color: white;
+}
+
+.explanation {
+  margin-top: 10px;
+  color: white;
+}
+
+.image-container img {
+  height: "600px";
+  object-fit: "cover";
+  max-width: "100%";
+  color: white;
+
+}
+
+.url {
+  margin-top: 20px;
+}
+
+.url a {
+  color: blue;
+}
+
+.url a:hover {
+  text-decoration: underline;
+}
+
+/* Slider styles */
+.slick-slider {
+  margin-top: 20px;
+  color: white;
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
